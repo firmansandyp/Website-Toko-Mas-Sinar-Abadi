@@ -42,7 +42,7 @@
 		<div class="container">
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li>Product page</li>
+				<li>Product results</li>
 			</ul>
 		</div>
 		<!-- / container -->
@@ -51,44 +51,114 @@
 
 	<div id="body">
 		<div class="container">
-			<div id="content" class="full">
-				<div class="product">
-					<div class="image">
-						<img src="images/5.jpg" alt="">
-					</div>
-					<div class="details">
-						<h1>Lorem ipsum dolor</h1>
-						<h4>Rp990.00</h4>
-						<div class="entry">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-							<div class="tabs">
-								<div class="nav">
-									<ul>
-										<li class="active"><a href="#desc">Description</a></li>
-										<li><a href="#spec">Specification</a></li>
-										<li><a href="#ret">Returns</a></li>
-									</ul>
-								</div>
-								<div class="tab-content active" id="desc">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								</div>
-								<div class="tab-content" id="spec">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								</div>
-								<div class="tab-content" id="ret">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								</div>
-							</div>
-						</div>
-						<div class="actions">
-							<label>Quantity:</label>
-							<select><option>1</option></select>
-							<a href="#" class="btn-grey">Add to cart</a>
-						</div>
-					</div>
-				</div>
+			<div class="pagination">
+				<ul>
+					<li><a href="#"><span class="ico-prev"></span></a></li>
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#"><span class="ico-next"></span></a></li>
+				</ul>
 			</div>
-			<!-- / content -->
+			<div class="products-wrap">
+				<aside id="sidebar">
+					<div class="widget">
+						<h3>Products per page:</h3>
+						<fieldset>
+							<input checked type="checkbox">
+							<label>8</label>
+							<input type="checkbox">
+							<label>16</label>
+							<input type="checkbox">
+							<label>32</label>
+						</fieldset>
+					</div>
+					<div class="widget">
+						<h3>Sort by:</h3>
+						<fieldset>
+							<input checked type="checkbox">
+							<label>Popularity</label>
+							<input type="checkbox">
+							<label>Date</label>
+							<input type="checkbox">
+							<label>Price</label>
+						</fieldset>
+					</div>
+					<div class="widget">
+						<h3>Condition:</h3>
+						<fieldset>
+							<input checked type="checkbox">
+							<label>New</label>
+							<input type="checkbox">
+							<label>Used</label>
+						</fieldset>
+					</div>
+					<div class="widget">
+						<h3>Price range:</h3>
+						<fieldset>
+							<div id="price-range"></div>
+						</fieldset>
+					</div>
+				</aside>
+				<div id="content">
+					<section class="products">
+						<article>
+							<a href="product.html"><img src="images/joy.jpg" alt=""></a>
+							<h3><a href="product.html">Ring of Joy</a></h3>
+							<h4><a href="product.html">Rp3.250.000.00</a></h4>
+						</article>
+						<article>
+							<a href="product.html"><img src="images/SealedString.jpg" alt=""></a>
+							<h3><a href="product.html">Sealed String</a></h3>
+							<h4><a href="product.html">Rp7.250.000.00</a></h4>
+						</article>
+						<article>
+							<a href="product.html"><img src="images/EternalLove.jpg" alt=""></a>
+							<h3><a href="product.html">Loved Eternal</a></h3>
+							<h4><a href="product.html">Rp8.350.000.00</a></h4>
+						</article>
+						<article>
+							<a href="product.html"><img src="images/CresentMoon.jpg" alt=""></a>
+							<h3><a href="product.html">Cresent Moon</a></h3>
+							<h4><a href="product.html">Rp6.825.000.00</a></h4>
+						</article>
+						<article>
+							<a href="product.html"><img src="images/ImperialRing.jpg" alt=""></a>
+							<h3><a href="product.html">Imperial</a></h3>
+							<h4><a href="product.html">Rp4.350.000.00</a></h4>
+						</article>
+						<article>
+							<a href="product.html"><img src="images/Simplicity.jpg" alt=""></a>
+							<h3><a href="product.html">Simplicity</a></h3>
+							<h4><a href="product.html">Rp7.327.000.00</a></h4>
+						</article>
+						<article>
+							<a href="product.html"><img src="images/DragonRing.jpg" alt=""></a>
+							<h3><a href="product.html">Dragon</a></h3>
+							<h4><a href="product.html">Rp14.550.000.00</a></h4>
+						</article>
+						<article>
+							<a href="product.html"><img src="images/TangledHeart.jpg" alt=""></a>
+							<h3><a href="product.html">Tangled Heart</a></h3>
+							<h4><a href="product.html">Rp15.750.500.00</a></h4>
+						</article>
+					</section>
+				</div>
+				<!-- / content -->
+			</div>
+			<div class="pagination">
+				<ul>
+					<li><a href="#"><span class="ico-prev"></span></a></li>
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#"><span class="ico-next"></span></a></li>
+				</ul>
+			</div>
 		</div>
 		<!-- / container -->
 	</div>
