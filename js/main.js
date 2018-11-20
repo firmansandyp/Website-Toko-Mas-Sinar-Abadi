@@ -14,13 +14,13 @@ var z=document.getElementById("anting");
 
 function showCincin(){
 	y.style.display = "none";
-	//z.style.display = "none";
+	z.style.display = "none";
 	x.style.display = "block";
 }
 
 function showGelang(){
 	x.style.display = "none";
-	//z.style.display = "none";
+	z.style.display = "none";
 	y.style.display = "block";
 }
 
