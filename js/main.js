@@ -7,6 +7,29 @@ function mobileCheck(){
 	}
 }
 
+var x=document.getElementById("cincin");
+var y=document.getElementById("gelang");
+var z=document.getElementById("anting");
+
+
+function showCincin(){
+	y.style.display = "none";
+	//z.style.display = "none";
+	x.style.display = "block";
+}
+
+function showGelang(){
+	x.style.display = "none";
+	//z.style.display = "none";
+	y.style.display = "block";
+}
+
+function showAnting(){
+	x.style.display = "none";
+	y.style.display = "none";
+	z.style.display = "block";
+}
+
 $(document).ready(function() {
 	$("input[type=checkbox]").crfi();
 	$("select").crfs();
